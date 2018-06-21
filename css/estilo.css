@@ -1,0 +1,57 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #7d97ad;
+    margin-bottom: 10px;
+}
+
+.destaqueSecundario {
+    margin-top:30px;
+}
+
+figure {
+    margin: 0 15px;
+}
+
+figcaption {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6em;
+    letter-spacing: 5px;
+}
+
+figcaption a {
+    text-transform: lowercase;
+    font-weight: normal;
+    font-size: 0.6em;
+    letter-spacing: normal;
+}
+
+.logoUdacity, .nomeAutor {
+    padding-top: 15px;
+}
+
+
+@media (min-width: 576px) {
+    .logoUdacity {text-align:center; }
+}
+
+@media (min-width: 576px) { .nomeAutor {text-align:right !important;  }
+.logoUdacity {text-align: left !important;} }
+
+
